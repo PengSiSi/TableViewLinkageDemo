@@ -1,0 +1,787 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4999D511D7338AFE3E7B193A /* libPods-TableViewLinkageDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE05DFB85451E8D74B89E4C /* libPods-TableViewLinkageDemoUITests.a */; };
+		844D06D36CE573157E6F9105 /* libPods-TableViewLinkageDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5132BC9E94228062B7DAB219 /* libPods-TableViewLinkageDemo.a */; };
+		EECEE01A356B41B86A96F84F /* libPods-TableViewLinkageDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A3E33C2B9A89DD7365D80E /* libPods-TableViewLinkageDemoTests.a */; };
+		F1C25A191F26D337003FA057 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C25A181F26D337003FA057 /* main.m */; };
+		F1C25A1C1F26D337003FA057 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C25A1B1F26D337003FA057 /* AppDelegate.m */; };
+		F1C25A221F26D338003FA057 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1C25A201F26D338003FA057 /* Main.storyboard */; };
+		F1C25A241F26D338003FA057 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1C25A231F26D338003FA057 /* Assets.xcassets */; };
+		F1C25A271F26D338003FA057 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1C25A251F26D338003FA057 /* LaunchScreen.storyboard */; };
+		F1C25A321F26D338003FA057 /* TableViewLinkageDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C25A311F26D338003FA057 /* TableViewLinkageDemoTests.m */; };
+		F1C25A3D1F26D338003FA057 /* TableViewLinkageDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C25A3C1F26D338003FA057 /* TableViewLinkageDemoUITests.m */; };
+		F1C25A4E1F26EED3003FA057 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F1C25A4D1F26EED3003FA057 /* libicucore.tbd */; };
+		F1C25A501F26EEDC003FA057 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1C25A4F1F26EEDC003FA057 /* CFNetwork.framework */; };
+		F1C25A521F26EEE4003FA057 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1C25A511F26EEE4003FA057 /* Security.framework */; };
+		F1C25A541F26EEED003FA057 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1C25A531F26EEED003FA057 /* Foundation.framework */; };
+		F1C25A5A1F270B81003FA057 /* UIView+AdjustFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C25A591F270B81003FA057 /* UIView+AdjustFrame.m */; };
+		F1C25A601F2711A8003FA057 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = F1C25A5F1F2711A8003FA057 /* data.json */; };
+		F1C25A661F271A6F003FA057 /* TableLinkageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C25A631F271A6F003FA057 /* TableLinkageViewController.m */; };
+		F1C25A671F271A6F003FA057 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C25A651F271A6F003FA057 /* TableViewCell.m */; };
+		F1C25A6A1F271A75003FA057 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C25A691F271A75003FA057 /* ViewController.m */; };
+		F1C25A6D1F271AB7003FA057 /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C25A6C1F271AB7003FA057 /* DataModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1C25A2E1F26D338003FA057 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1C25A0C1F26D337003FA057 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1C25A131F26D337003FA057;
+			remoteInfo = TableViewLinkageDemo;
+		};
+		F1C25A391F26D338003FA057 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1C25A0C1F26D337003FA057 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1C25A131F26D337003FA057;
+			remoteInfo = TableViewLinkageDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37A3E33C2B9A89DD7365D80E /* libPods-TableViewLinkageDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TableViewLinkageDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4311ED3B70E8FBC9002BAD67 /* Pods-TableViewLinkageDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewLinkageDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TableViewLinkageDemoUITests/Pods-TableViewLinkageDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5132BC9E94228062B7DAB219 /* libPods-TableViewLinkageDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TableViewLinkageDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5167DC20930026ABA9929573 /* Pods-TableViewLinkageDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewLinkageDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TableViewLinkageDemo/Pods-TableViewLinkageDemo.release.xcconfig"; sourceTree = "<group>"; };
+		8A8EE37AD49ECBF3E6B3E45A /* Pods-TableViewLinkageDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewLinkageDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TableViewLinkageDemoTests/Pods-TableViewLinkageDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8D1B5E974BE1ECE6D80F899B /* Pods-TableViewLinkageDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewLinkageDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TableViewLinkageDemoUITests/Pods-TableViewLinkageDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A274B3204A8D2C3FA791F58A /* Pods-TableViewLinkageDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewLinkageDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TableViewLinkageDemo/Pods-TableViewLinkageDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		BCE05DFB85451E8D74B89E4C /* libPods-TableViewLinkageDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TableViewLinkageDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1C25A141F26D337003FA057 /* TableViewLinkageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewLinkageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1C25A181F26D337003FA057 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F1C25A1A1F26D337003FA057 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F1C25A1B1F26D337003FA057 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F1C25A211F26D338003FA057 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1C25A231F26D338003FA057 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1C25A261F26D338003FA057 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1C25A281F26D338003FA057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1C25A2D1F26D338003FA057 /* TableViewLinkageDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewLinkageDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1C25A311F26D338003FA057 /* TableViewLinkageDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewLinkageDemoTests.m; sourceTree = "<group>"; };
+		F1C25A331F26D338003FA057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1C25A381F26D338003FA057 /* TableViewLinkageDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewLinkageDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1C25A3C1F26D338003FA057 /* TableViewLinkageDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewLinkageDemoUITests.m; sourceTree = "<group>"; };
+		F1C25A3E1F26D338003FA057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1C25A4D1F26EED3003FA057 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		F1C25A4F1F26EEDC003FA057 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F1C25A511F26EEE4003FA057 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F1C25A531F26EEED003FA057 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F1C25A581F270B81003FA057 /* UIView+AdjustFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AdjustFrame.h"; sourceTree = "<group>"; };
+		F1C25A591F270B81003FA057 /* UIView+AdjustFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AdjustFrame.m"; sourceTree = "<group>"; };
+		F1C25A5F1F2711A8003FA057 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		F1C25A621F271A6F003FA057 /* TableLinkageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableLinkageViewController.h; sourceTree = "<group>"; };
+		F1C25A631F271A6F003FA057 /* TableLinkageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableLinkageViewController.m; sourceTree = "<group>"; };
+		F1C25A641F271A6F003FA057 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		F1C25A651F271A6F003FA057 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		F1C25A681F271A75003FA057 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F1C25A691F271A75003FA057 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F1C25A6B1F271AB7003FA057 /* DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
+		F1C25A6C1F271AB7003FA057 /* DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataModel.m; sourceTree = "<group>"; };
+		FFA4305AAA3B4831CA4A9F1F /* Pods-TableViewLinkageDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewLinkageDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TableViewLinkageDemoTests/Pods-TableViewLinkageDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1C25A111F26D337003FA057 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C25A541F26EEED003FA057 /* Foundation.framework in Frameworks */,
+				F1C25A521F26EEE4003FA057 /* Security.framework in Frameworks */,
+				F1C25A501F26EEDC003FA057 /* CFNetwork.framework in Frameworks */,
+				F1C25A4E1F26EED3003FA057 /* libicucore.tbd in Frameworks */,
+				844D06D36CE573157E6F9105 /* libPods-TableViewLinkageDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C25A2A1F26D338003FA057 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EECEE01A356B41B86A96F84F /* libPods-TableViewLinkageDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C25A351F26D338003FA057 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4999D511D7338AFE3E7B193A /* libPods-TableViewLinkageDemoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E269B61726F47E9934278838 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A274B3204A8D2C3FA791F58A /* Pods-TableViewLinkageDemo.debug.xcconfig */,
+				5167DC20930026ABA9929573 /* Pods-TableViewLinkageDemo.release.xcconfig */,
+				8A8EE37AD49ECBF3E6B3E45A /* Pods-TableViewLinkageDemoTests.debug.xcconfig */,
+				FFA4305AAA3B4831CA4A9F1F /* Pods-TableViewLinkageDemoTests.release.xcconfig */,
+				8D1B5E974BE1ECE6D80F899B /* Pods-TableViewLinkageDemoUITests.debug.xcconfig */,
+				4311ED3B70E8FBC9002BAD67 /* Pods-TableViewLinkageDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E8D6209739BDDF6DBAD970EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1C25A531F26EEED003FA057 /* Foundation.framework */,
+				F1C25A511F26EEE4003FA057 /* Security.framework */,
+				F1C25A4F1F26EEDC003FA057 /* CFNetwork.framework */,
+				F1C25A4D1F26EED3003FA057 /* libicucore.tbd */,
+				5132BC9E94228062B7DAB219 /* libPods-TableViewLinkageDemo.a */,
+				37A3E33C2B9A89DD7365D80E /* libPods-TableViewLinkageDemoTests.a */,
+				BCE05DFB85451E8D74B89E4C /* libPods-TableViewLinkageDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1C25A0B1F26D337003FA057 = {
+			isa = PBXGroup;
+			children = (
+				F1C25A161F26D337003FA057 /* TableViewLinkageDemo */,
+				F1C25A301F26D338003FA057 /* TableViewLinkageDemoTests */,
+				F1C25A3B1F26D338003FA057 /* TableViewLinkageDemoUITests */,
+				F1C25A151F26D337003FA057 /* Products */,
+				E269B61726F47E9934278838 /* Pods */,
+				E8D6209739BDDF6DBAD970EC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F1C25A151F26D337003FA057 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1C25A141F26D337003FA057 /* TableViewLinkageDemo.app */,
+				F1C25A2D1F26D338003FA057 /* TableViewLinkageDemoTests.xctest */,
+				F1C25A381F26D338003FA057 /* TableViewLinkageDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1C25A161F26D337003FA057 /* TableViewLinkageDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F1C25A5F1F2711A8003FA057 /* data.json */,
+				F1C25A611F271A6F003FA057 /* TableViewLinkage */,
+				F1C25A1A1F26D337003FA057 /* AppDelegate.h */,
+				F1C25A1B1F26D337003FA057 /* AppDelegate.m */,
+				F1C25A681F271A75003FA057 /* ViewController.h */,
+				F1C25A691F271A75003FA057 /* ViewController.m */,
+				F1C25A581F270B81003FA057 /* UIView+AdjustFrame.h */,
+				F1C25A591F270B81003FA057 /* UIView+AdjustFrame.m */,
+				F1C25A201F26D338003FA057 /* Main.storyboard */,
+				F1C25A231F26D338003FA057 /* Assets.xcassets */,
+				F1C25A251F26D338003FA057 /* LaunchScreen.storyboard */,
+				F1C25A281F26D338003FA057 /* Info.plist */,
+				F1C25A171F26D337003FA057 /* Supporting Files */,
+			);
+			path = TableViewLinkageDemo;
+			sourceTree = "<group>";
+		};
+		F1C25A171F26D337003FA057 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1C25A181F26D337003FA057 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1C25A301F26D338003FA057 /* TableViewLinkageDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1C25A311F26D338003FA057 /* TableViewLinkageDemoTests.m */,
+				F1C25A331F26D338003FA057 /* Info.plist */,
+			);
+			path = TableViewLinkageDemoTests;
+			sourceTree = "<group>";
+		};
+		F1C25A3B1F26D338003FA057 /* TableViewLinkageDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F1C25A3C1F26D338003FA057 /* TableViewLinkageDemoUITests.m */,
+				F1C25A3E1F26D338003FA057 /* Info.plist */,
+			);
+			path = TableViewLinkageDemoUITests;
+			sourceTree = "<group>";
+		};
+		F1C25A611F271A6F003FA057 /* TableViewLinkage */ = {
+			isa = PBXGroup;
+			children = (
+				F1C25A621F271A6F003FA057 /* TableLinkageViewController.h */,
+				F1C25A631F271A6F003FA057 /* TableLinkageViewController.m */,
+				F1C25A6B1F271AB7003FA057 /* DataModel.h */,
+				F1C25A6C1F271AB7003FA057 /* DataModel.m */,
+				F1C25A641F271A6F003FA057 /* TableViewCell.h */,
+				F1C25A651F271A6F003FA057 /* TableViewCell.m */,
+			);
+			path = TableViewLinkage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1C25A131F26D337003FA057 /* TableViewLinkageDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1C25A411F26D338003FA057 /* Build configuration list for PBXNativeTarget "TableViewLinkageDemo" */;
+			buildPhases = (
+				775F634444A31701FDF87BDB /* [CP] Check Pods Manifest.lock */,
+				F1C25A101F26D337003FA057 /* Sources */,
+				F1C25A111F26D337003FA057 /* Frameworks */,
+				F1C25A121F26D337003FA057 /* Resources */,
+				047475B2AE8BDB9EEEDD99C3 /* [CP] Embed Pods Frameworks */,
+				5CA99B55B02A930B38EA6239 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TableViewLinkageDemo;
+			productName = TableViewLinkageDemo;
+			productReference = F1C25A141F26D337003FA057 /* TableViewLinkageDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1C25A2C1F26D338003FA057 /* TableViewLinkageDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1C25A441F26D338003FA057 /* Build configuration list for PBXNativeTarget "TableViewLinkageDemoTests" */;
+			buildPhases = (
+				7B3AA09BD17826462E2B9825 /* [CP] Check Pods Manifest.lock */,
+				F1C25A291F26D338003FA057 /* Sources */,
+				F1C25A2A1F26D338003FA057 /* Frameworks */,
+				F1C25A2B1F26D338003FA057 /* Resources */,
+				F5C0F31DE6FF3B728FE6755F /* [CP] Embed Pods Frameworks */,
+				A8F3B0E71FC9CAD1286FEE32 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1C25A2F1F26D338003FA057 /* PBXTargetDependency */,
+			);
+			name = TableViewLinkageDemoTests;
+			productName = TableViewLinkageDemoTests;
+			productReference = F1C25A2D1F26D338003FA057 /* TableViewLinkageDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F1C25A371F26D338003FA057 /* TableViewLinkageDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1C25A471F26D338003FA057 /* Build configuration list for PBXNativeTarget "TableViewLinkageDemoUITests" */;
+			buildPhases = (
+				78C84489E0932992C6872BF8 /* [CP] Check Pods Manifest.lock */,
+				F1C25A341F26D338003FA057 /* Sources */,
+				F1C25A351F26D338003FA057 /* Frameworks */,
+				F1C25A361F26D338003FA057 /* Resources */,
+				9BE62400CF0E5C5120EEF163 /* [CP] Embed Pods Frameworks */,
+				83A3778588572A2C2A549B62 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1C25A3A1F26D338003FA057 /* PBXTargetDependency */,
+			);
+			name = TableViewLinkageDemoUITests;
+			productName = TableViewLinkageDemoUITests;
+			productReference = F1C25A381F26D338003FA057 /* TableViewLinkageDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1C25A0C1F26D337003FA057 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "思 彭";
+				TargetAttributes = {
+					F1C25A131F26D337003FA057 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = RN6253B2FZ;
+						ProvisioningStyle = Automatic;
+					};
+					F1C25A2C1F26D338003FA057 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = RN6253B2FZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F1C25A131F26D337003FA057;
+					};
+					F1C25A371F26D338003FA057 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = RN6253B2FZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F1C25A131F26D337003FA057;
+					};
+				};
+			};
+			buildConfigurationList = F1C25A0F1F26D337003FA057 /* Build configuration list for PBXProject "TableViewLinkageDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1C25A0B1F26D337003FA057;
+			productRefGroup = F1C25A151F26D337003FA057 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1C25A131F26D337003FA057 /* TableViewLinkageDemo */,
+				F1C25A2C1F26D338003FA057 /* TableViewLinkageDemoTests */,
+				F1C25A371F26D338003FA057 /* TableViewLinkageDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1C25A121F26D337003FA057 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C25A271F26D338003FA057 /* LaunchScreen.storyboard in Resources */,
+				F1C25A241F26D338003FA057 /* Assets.xcassets in Resources */,
+				F1C25A221F26D338003FA057 /* Main.storyboard in Resources */,
+				F1C25A601F2711A8003FA057 /* data.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C25A2B1F26D338003FA057 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C25A361F26D338003FA057 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		047475B2AE8BDB9EEEDD99C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TableViewLinkageDemo/Pods-TableViewLinkageDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CA99B55B02A930B38EA6239 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TableViewLinkageDemo/Pods-TableViewLinkageDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		775F634444A31701FDF87BDB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		78C84489E0932992C6872BF8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7B3AA09BD17826462E2B9825 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		83A3778588572A2C2A549B62 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TableViewLinkageDemoUITests/Pods-TableViewLinkageDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BE62400CF0E5C5120EEF163 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TableViewLinkageDemoUITests/Pods-TableViewLinkageDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8F3B0E71FC9CAD1286FEE32 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TableViewLinkageDemoTests/Pods-TableViewLinkageDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5C0F31DE6FF3B728FE6755F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TableViewLinkageDemoTests/Pods-TableViewLinkageDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1C25A101F26D337003FA057 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C25A6A1F271A75003FA057 /* ViewController.m in Sources */,
+				F1C25A1C1F26D337003FA057 /* AppDelegate.m in Sources */,
+				F1C25A671F271A6F003FA057 /* TableViewCell.m in Sources */,
+				F1C25A661F271A6F003FA057 /* TableLinkageViewController.m in Sources */,
+				F1C25A6D1F271AB7003FA057 /* DataModel.m in Sources */,
+				F1C25A191F26D337003FA057 /* main.m in Sources */,
+				F1C25A5A1F270B81003FA057 /* UIView+AdjustFrame.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C25A291F26D338003FA057 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C25A321F26D338003FA057 /* TableViewLinkageDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C25A341F26D338003FA057 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C25A3D1F26D338003FA057 /* TableViewLinkageDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1C25A2F1F26D338003FA057 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1C25A131F26D337003FA057 /* TableViewLinkageDemo */;
+			targetProxy = F1C25A2E1F26D338003FA057 /* PBXContainerItemProxy */;
+		};
+		F1C25A3A1F26D338003FA057 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1C25A131F26D337003FA057 /* TableViewLinkageDemo */;
+			targetProxy = F1C25A391F26D338003FA057 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1C25A201F26D338003FA057 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1C25A211F26D338003FA057 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1C25A251F26D338003FA057 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1C25A261F26D338003FA057 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1C25A3F1F26D338003FA057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F1C25A401F26D338003FA057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1C25A421F26D338003FA057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A274B3204A8D2C3FA791F58A /* Pods-TableViewLinkageDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RN6253B2FZ;
+				INFOPLIST_FILE = TableViewLinkageDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.combanc.cn.TableViewLinkageDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F1C25A431F26D338003FA057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5167DC20930026ABA9929573 /* Pods-TableViewLinkageDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RN6253B2FZ;
+				INFOPLIST_FILE = TableViewLinkageDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.combanc.cn.TableViewLinkageDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F1C25A451F26D338003FA057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A8EE37AD49ECBF3E6B3E45A /* Pods-TableViewLinkageDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RN6253B2FZ;
+				INFOPLIST_FILE = TableViewLinkageDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.combanc.cn.TableViewLinkageDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableViewLinkageDemo.app/TableViewLinkageDemo";
+			};
+			name = Debug;
+		};
+		F1C25A461F26D338003FA057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFA4305AAA3B4831CA4A9F1F /* Pods-TableViewLinkageDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RN6253B2FZ;
+				INFOPLIST_FILE = TableViewLinkageDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.combanc.cn.TableViewLinkageDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableViewLinkageDemo.app/TableViewLinkageDemo";
+			};
+			name = Release;
+		};
+		F1C25A481F26D338003FA057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D1B5E974BE1ECE6D80F899B /* Pods-TableViewLinkageDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = RN6253B2FZ;
+				INFOPLIST_FILE = TableViewLinkageDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.combanc.cn.TableViewLinkageDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TableViewLinkageDemo;
+			};
+			name = Debug;
+		};
+		F1C25A491F26D338003FA057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4311ED3B70E8FBC9002BAD67 /* Pods-TableViewLinkageDemoUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = RN6253B2FZ;
+				INFOPLIST_FILE = TableViewLinkageDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.combanc.cn.TableViewLinkageDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TableViewLinkageDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1C25A0F1F26D337003FA057 /* Build configuration list for PBXProject "TableViewLinkageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1C25A3F1F26D338003FA057 /* Debug */,
+				F1C25A401F26D338003FA057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1C25A411F26D338003FA057 /* Build configuration list for PBXNativeTarget "TableViewLinkageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1C25A421F26D338003FA057 /* Debug */,
+				F1C25A431F26D338003FA057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1C25A441F26D338003FA057 /* Build configuration list for PBXNativeTarget "TableViewLinkageDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1C25A451F26D338003FA057 /* Debug */,
+				F1C25A461F26D338003FA057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1C25A471F26D338003FA057 /* Build configuration list for PBXNativeTarget "TableViewLinkageDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1C25A481F26D338003FA057 /* Debug */,
+				F1C25A491F26D338003FA057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1C25A0C1F26D337003FA057 /* Project object */;
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-TableViewLinkageDemo.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-TableViewLinkageDemoTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-TableViewLinkageDemoUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SocketRocket.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>0F1E940001B791FEAA0456FAD0BFC954</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>61DC3B1D6726A665C8DBA3C060959B39</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>763648929FAE23494749A875D2E65972</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9EC2F20319E8D747578EC208472FE061</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
